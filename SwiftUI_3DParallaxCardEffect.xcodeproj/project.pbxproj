@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		2D802F052B46E3EE006A55EB /* SwiftUI_3DParallaxCardEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D802F042B46E3EE006A55EB /* SwiftUI_3DParallaxCardEffectApp.swift */; };
 		2D802F072B46E3EE006A55EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D802F062B46E3EE006A55EB /* ContentView.swift */; };
-		2D802F092B46E3EF006A55EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D802F082B46E3EF006A55EB /* Assets.xcassets */; };
 		2D802F0C2B46E3EF006A55EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D802F0B2B46E3EF006A55EB /* Preview Assets.xcassets */; };
+		2D802F132B46E420006A55EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D802F122B46E420006A55EB /* Assets.xcassets */; };
+		2D802F152B46E43F006A55EB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D802F142B46E43F006A55EB /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D802F012B46E3EE006A55EB /* SwiftUI_3DParallaxCardEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_3DParallaxCardEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D802F042B46E3EE006A55EB /* SwiftUI_3DParallaxCardEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_3DParallaxCardEffectApp.swift; sourceTree = "<group>"; };
 		2D802F062B46E3EE006A55EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2D802F082B46E3EF006A55EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D802F0B2B46E3EF006A55EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D802F122B46E420006A55EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D802F142B46E43F006A55EB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			children = (
 				2D802F042B46E3EE006A55EB /* SwiftUI_3DParallaxCardEffectApp.swift */,
 				2D802F062B46E3EE006A55EB /* ContentView.swift */,
-				2D802F082B46E3EF006A55EB /* Assets.xcassets */,
+				2D802F142B46E43F006A55EB /* Home.swift */,
+				2D802F122B46E420006A55EB /* Assets.xcassets */,
 				2D802F0A2B46E3EF006A55EB /* Preview Content */,
 			);
 			path = SwiftUI_3DParallaxCardEffect;
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D802F132B46E420006A55EB /* Assets.xcassets in Resources */,
 				2D802F0C2B46E3EF006A55EB /* Preview Assets.xcassets in Resources */,
-				2D802F092B46E3EF006A55EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D802F072B46E3EE006A55EB /* ContentView.swift in Sources */,
+				2D802F152B46E43F006A55EB /* Home.swift in Sources */,
 				2D802F052B46E3EE006A55EB /* SwiftUI_3DParallaxCardEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
